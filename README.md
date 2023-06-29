@@ -92,6 +92,7 @@ My name is Avinash Tallapaneni, and I am a front-end web developer passionate ab
 
 - Website - [Preview site on Netlify](https://cinespectrum.netlify.app/)
 - GitHub - [Your GitHub Profile](https://github.com/your-profile)
+- Twitter - [Twitter Profile](=https://twitter.com/TallapaneniAvi)
 
 ## Feedback
 
