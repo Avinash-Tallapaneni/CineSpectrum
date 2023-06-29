@@ -1,0 +1,62 @@
+.player_container {
+  height: 80vh;
+  /* display: inline-block; */
+  @apply bg-black;
+}
+.player_wrapper {
+  width: 70%;
+  height: 100%;
+  display: inline-block;
+}
+
+.trailer_details {
+  display: inline-block;
+  width: 30%;
+}
+
+.right_side {
+  /* margin-left: auto; */
+  width: 90vw;
+  display: inline-block;
+  padding-right: 2.5rem;
+}
+
+.right_side > * {
+  cursor: pointer;
+}
+
+.left_side {
+  display: inline-block;
+  margin: auto;
+}
+
+@media (max-width: 1000px) {
+  .player_container {
+    height: 60vh;
+  }
+}
+
+@media (max-width: 640px) {
+  .player_container {
+    height: 40vh;
+  }
+  .trailer_details {
+    font-size: 0.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .player_container {
+    flex-direction: column-reverse;
+    /* align-items: center; */
+  }
+  .trailer_details,
+  .trailer-player,
+  .player_wrapper {
+    width: 100%;
+  }
+  .play {
+    font-size: 0.75rem;
+    border-radius: 0.25rem;
+  }
+}

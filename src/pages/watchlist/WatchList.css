@@ -1,0 +1,27 @@
+.genre_title {
+    font-size: 0.5rem;
+  }
+  
+  .genre_overview,
+  .tags,
+  .button {
+    line-height: normal;
+  }
+  
+  .genre_overview {
+    max-height: 5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  @media (max-width: 640px) {
+    .trending_container{
+      @apply grid-cols-3
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .trending_container{
+      @apply grid-cols-2
+    }
+  }

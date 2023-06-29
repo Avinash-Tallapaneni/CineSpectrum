@@ -1,0 +1,8 @@
+.alice-carousel__stage > li {
+  padding: 0 0.25rem;
+  overflow: hidden;
+}
+
+.trailer_preview_image{
+    border-radius: 0.25rem;
+}

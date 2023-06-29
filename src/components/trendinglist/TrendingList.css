@@ -1,0 +1,36 @@
+.arrow {
+  display: none;
+}
+
+.trending_container:hover .arrow {
+  display: block;
+  height: 100%;
+  transform: scale(1.2);
+  transition: transform 300ms ease-in;
+}
+
+.trending_container:hover .left_arrow {
+  left: 0;
+  top: 0;
+}
+
+.trending_container:hover .right_arrow {
+  right: 0;
+  top: 0;
+}
+
+@media (max-width: 1000px) {
+  .header > h1 {
+    @apply text-xl;
+  }
+
+  .cursor-pointer {
+    @apply text-sm;
+  }
+
+  .arrow {
+    font-size: 2rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+}

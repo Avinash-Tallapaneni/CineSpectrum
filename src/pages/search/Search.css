@@ -1,0 +1,43 @@
+.genre_title {
+  font-size: 0.5rem;
+}
+
+.genre_overview,
+.tags,
+.button {
+  line-height: normal;
+}
+
+.genre_overview {
+  max-height: 5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 768px) {
+  .search_container {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  
+}
+
+@media (max-width: 640px) {
+  .search_container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .nav_link_mobile_menu {
+    display: block;
+  }
+  .nav_links_mobile {
+    display: none;
+  }
+  .search-box{
+    margin-left: auto;
+  }
+  .search_box_default_text {
+    padding: 1rem;
+  }
+}

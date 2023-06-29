@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color: #12161f;
+  --text-color: #efeff6;
+
+  --text-color-A1: rgba(255, 255, 255, 0.8);
+  --text-color-A2: rgba(255, 255, 255, 0.6);
+  --outline-color: rgba(255, 255, 255, 0.9);
+}
